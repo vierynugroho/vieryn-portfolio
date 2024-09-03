@@ -35,7 +35,7 @@ const ContactMe = () => {
 
         <div className="flex flex-col items-center justify-center w-full">
           <form
-            action="https://formspree.io/f/xdorkorr"
+            action="https://formspree.io/f/mgvwqvdw"
             method="POST"
             className="w-full space-y-4"
           >

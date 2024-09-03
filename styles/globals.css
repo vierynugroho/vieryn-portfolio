@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
-body, * {
+body,
+* {
   box-sizing: content-box;
-  cursor: none;
 }
 
 ::selection {
@@ -106,12 +107,12 @@ body, * {
   content: '#';
 }
 
-.prose *:hover > .anchor {
+.prose *:hover>.anchor {
   @apply visible;
 }
 
 .prose pre {
-  @apply border border-gray-700 bg-gray-900;
+  @apply bg-gray-900 border border-gray-700;
 }
 
 .prose code {
@@ -119,7 +120,7 @@ body, * {
 }
 
 .prose pre code {
-  @apply text-gray-200 p-0;
+  @apply p-0 text-gray-200;
   border: initial;
 }
 
@@ -128,7 +129,7 @@ body, * {
   @apply m-0;
 }
 
-.prose > :first-child {
+.prose> :first-child {
   /* Override removing top margin, causing layout shift */
   margin-top: 1.25em !important;
   margin-bottom: 1.25em !important;
@@ -206,15 +207,15 @@ pre {
 }
 
 .rehype-code-title {
-  @apply px-5 py-3 font-mono text-sm font-bold border border-b-0 rounded-t-lg text-gray-200 border-gray-700 bg-gray-900;
+  @apply px-5 py-3 font-mono text-sm font-bold text-gray-200 bg-gray-900 border border-b-0 border-gray-700 rounded-t-lg;
 }
 
-.rehype-code-title + pre {
+.rehype-code-title+pre {
   @apply mt-0 rounded-t-none;
 }
 
 .highlight-line {
-  @apply block px-4 -mx-4 border-l-4 border-blue-500 bg-gray-900;
+  @apply block px-4 -mx-4 bg-gray-900 border-l-4 border-blue-500;
 }
 
 /* Remove Safari input shadow on mobile */
@@ -225,15 +226,15 @@ input[type='email'] {
   appearance: none;
 }
 
-.metric-card > a {
+.metric-card>a {
   @apply no-underline;
 }
 
-.metric-card > p {
+.metric-card>p {
   @apply my-2;
 }
 
-.step > h3 {
+.step>h3 {
   @apply my-0;
 }
 
@@ -249,7 +250,7 @@ table {
   white-space: nowrap;
 }
 
-.prose .callout > p {
+.prose .callout>p {
   margin: 0 !important;
 }
 
@@ -257,33 +258,25 @@ table {
   inset: 0px;
   position: absolute;
   z-index: -1;
-  background: radial-gradient(
-      circle at top left,
+  background: radial-gradient(circle at top left,
       rgba(139, 0, 255, 0.22) 0%,
       rgba(0, 0, 0, 0) 15%,
-      rgba(128, 128, 128, 0) 100%
-    ),
-    radial-gradient(
-      circle at 85% 30%,
+      rgba(128, 128, 128, 0) 100%),
+    radial-gradient(circle at 85% 30%,
       rgba(0, 136, 255, 0.28) 0%,
       rgba(0, 0, 0, 0) 30%,
-      rgba(128, 128, 128, 0) 15%
-    );
+      rgba(128, 128, 128, 0) 15%);
 }
 
 @media (min-width: 900px) {
   .darkBackgroundCirclesColors {
-    background: radial-gradient(
-        circle at 15% 55%,
+    background: radial-gradient(circle at 15% 55%,
         rgba(139, 0, 255, 0.22) 0%,
         rgba(0, 0, 0, 0) 25%,
-        rgba(128, 128, 128, 0) 100%
-      ),
-      radial-gradient(
-        circle at 85% 30%,
+        rgba(128, 128, 128, 0) 100%),
+      radial-gradient(circle at 85% 30%,
         rgba(0, 136, 255, 0.28) 0%,
         rgba(0, 0, 0, 0) 30%,
-        rgba(128, 128, 128, 0) 25%
-      );
+        rgba(128, 128, 128, 0) 25%);
   }
 }

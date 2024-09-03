@@ -10,7 +10,7 @@ const Header = () => {
         <div>
           <h1>
             <Link href="/">
-              <strong>VieryN</strong>();
+              <strong> &lt; VieryN &#47;&gt;</strong>
             </Link>
           </h1>
         </div>

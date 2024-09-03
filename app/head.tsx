@@ -11,7 +11,7 @@ const Head = () => {
 
   const meta = {
     title: `Viery Nugroho ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Hi! My name is Viery Nugroho I'm from Venezuela and I have +3 year of work experience in JavaScript and React, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 16. I love what I do and I help others with what I can, I also use in web, mobile and desktop development Next.js, Angular, Ionic and Electron implementing good practices, clean architecture, pixel perfect and agile methodologies.`,
+    description: `Hi! My name is Viery Nugroho I'm from Indonesia and I have +2 year of work experience in JavaScript, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 18. I love what I do and I help others with what I can, I also use in web, mobile and desktop development Next.js, Vue, Express and Nest implementing good practices, clean architecture, and agile methodologies.`,
     keywords:
       'Viery Nugroho, vnonymous, Viery Nugroho portafolio, vnonymous portafolio, vnonymous portfolio, Viery Nugroho portfolio, vnonymous github, Viery Nugroho github, vnonymous LinkedIn, Viery Nugroho LinkedIn, Web, Web Development, Web Programming, HTML, CSS, Javascript, Typescript, React, Vue, Next, Nest',
     type: 'website'

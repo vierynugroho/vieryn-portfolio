@@ -10,11 +10,12 @@ const AboutMe = () => {
 
       <p className="text-base text-gray-400">
         I am a passionate and versatile developer with over +
-        {calculateDuration('2021-01-01', false)} of JavaScript experience and a
+        {calculateDuration('2022-01-01', false)} of JavaScript experience and a
         constant interest in learning new technologies. I am currently learning
-        the path to be a DevOps and master tools or practices such as "Linux,
-        AWS, CI/CD, dan Docker" to perform cost optimized, reliable and secure
-        full software delivery and maintenance.
+        MERN Stack Web Development and DevOps. Not only that, I also study the
+        tools used in developing application or websites such as "Linux, Docker,
+        CI/CD" to perform cost optimized, reliable and secure full software
+        delivery and maintenance
       </p>
     </AnimationContainer>
   );
