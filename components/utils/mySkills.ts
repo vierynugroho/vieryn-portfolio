@@ -8,33 +8,18 @@ export const skills = [
     techs: ['jQuery', 'Vue', 'React', 'Next', 'Laravel', 'Nest']
   },
   {
-    title: 'JavaScript libraries',
-    techs: [
-      'Redux',
-      'TanStack Query',
-      'Zustand',
-      'Formik',
-      'Jest',
-      'Storybook',
-      'Joi',
-      'Zod',
-      'Jotai'
-    ]
-  },
-  {
     title: 'Preprocessors, css style, component and motion libraries',
     techs: [
       'EJS',
       'Scss',
       'Sass',
-      'Less',
       'Bootstrap',
       'Tailwind',
       'Chakra UI',
       'Material UI',
       'NextUI',
       'Framer Motion',
-      'Shacdn',
+      'Shadcn',
       'DaishyUI'
     ]
   },
@@ -44,6 +29,7 @@ export const skills = [
       'noSQL',
       'Node.js',
       'Express',
+      'NestJS',
       'MongoDB',
       'Postman',
       'Firebase',
@@ -62,7 +48,6 @@ export const skills = [
       'Bitbucket',
       'ESLint',
       'Figma',
-      'Photoshop',
       'WordPress',
       'Elementor',
       'Docker',
@@ -75,16 +60,6 @@ export const skills = [
   },
   {
     title: 'Currently or interest in learning...',
-    techs: [
-      'SQL',
-      'Nest',
-      'GraphQL',
-      'Socket.IO',
-      'Linux',
-      'AWS',
-      'Docker',
-      'CI/CD',
-      'Next'
-    ]
+    techs: ['Nest', 'GraphQL', 'Socket.IO', 'Docker', 'Next']
   }
 ];

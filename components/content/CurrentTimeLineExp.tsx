@@ -25,15 +25,8 @@ const CurrentTimeLineExp = () => {
     <Timeline>
       <TimelineEvent active>
         <TimelineEvent.Title>
-          <a
-            href="https://www.ia.com.mx"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-all hover:text-white hover:underline ease"
-          >
-            Informatic Engineering Student
-          </a>{' '}
-          | October 2021 - {calculateDuration('2021-10-20', true)}
+          Informatic Engineering Student | October 2021 -{' '}
+          {calculateDuration('2021-10-20', true)}
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
@@ -45,6 +38,36 @@ const CurrentTimeLineExp = () => {
           teaching assistant. My dedication to continuous learning is evident in
           my pursuit of scholarships and training programs specifically focused
           on web development.
+        </TimelineEvent.Description>
+      </TimelineEvent>
+
+      <TimelineEvent>
+        <TimelineEvent.Title>
+          <a
+            href="https://www.ia.com.mx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-all hover:text-white hover:underline ease"
+          >
+            Backend Javascript with AI Literacy
+          </a>{' '}
+          | September 2024 - January 2025
+        </TimelineEvent.Title>
+
+        <TimelineEvent.Description>
+          As a 5-month intern in the "MSIB Kampus Merdeka Batch 7" program at
+          Binar Academy, the participant successfully transitioned into a
+          backend developer. By following the Back End JavaScript course - with
+          AI Literacy & Global Certification Learn about: Programming Algorithm,
+          Error Handling, Asynchronous Process, Object Oriented Javascript,
+          Version Control with Git and GitHub, Basic concepts, how it works, and
+          AI applications, Back End Developer competencies in developing
+          AI-based digital products, Using AI-based tools, Database, DBMS
+          (Database Management System), Query Language, Database Indexing and
+          Query Optimization, RDBMS, Node.JS and Package Management, Web
+          Development with Express.JS, ORM with Prisma, API Documentation,
+          Authentication, Authorization, and Security, Deployment. This project
+          was successfully completed with highly satisfactory results.
         </TimelineEvent.Description>
       </TimelineEvent>
 
