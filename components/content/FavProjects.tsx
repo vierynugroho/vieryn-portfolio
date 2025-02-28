@@ -144,14 +144,6 @@ const favProjects = [
     category: 'decision support system - nodeJS - expressJS - postgreSQL - AHP',
     repo: 'https://github.com/vierynugroho/SPK-internet-service-provider',
     link: 'https://team-a-spk-internet-service-provider.vercel.app'
-  },
-  {
-    image:
-      'https://media-hosting.imagekit.io//665be90467bf4330/Viery%20NUGROHO.png?Expires=1835392936&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=e4K1mPz1oSg6pyoRgtboOGG4RV0hC0~appatDy7GiaODSSO0g1Wob1e~qyKOvagBPL~NRdDvkKIDPpauAIKeNWmEyVDhxlVUB0iX5rz8Ukm7Gjo02d6KOJx1esH32BsVAq3-sSkKNoRHe6ZsDdqGOU6WFxA4GS1je90vsVUnAZOqqQoKFjnGxqagn5itotuVgPQ5DzZOsFrxw21SMcdnC2rtOSQofficq9LB6p6fvG~zr9tZPy2C7yVYpGRpC3RCCWZ47W8OaEceP1vRWMIn3Udioco-8oyepCVr3bXLyAfjPvFa1-qrRqXgtOWJoTgNSnHZr2ExjikIfnas2eIz1w__',
-    title: 'ISR Pokedex',
-    category: 'typescript - auth - nestJS - backend',
-    repo: 'https://github.com/vierynugroho/nest-rest',
-    link: 'https://github.com/vierynugroho/nest-rest'
   }
 ];
 
