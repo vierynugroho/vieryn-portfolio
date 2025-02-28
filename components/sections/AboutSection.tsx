@@ -16,13 +16,21 @@ const AboutSection = () => {
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-400">
-            I am a passionate and versatile developer with over +
-            {calculateDuration('2022-01-01', false)} of JavaScript experience
-            and a constant interest in learning new technologies. I am currently
-            learning MERN Stack Web Development and DevOps. Not only that, I
-            also study the tools used in developing application or websites such
-            as "Linux, Docker, CI/CD" to perform cost optimized, reliable and
-            secure full software delivery and maintenance
+            A web developer and IT enthusiast with over +
+            {calculateDuration('2022-01-01', false)} years of experience as a
+            Web Developer (PHP Developer, Laravel, and MERN Stack Developer)
+            with satisfying results. Also experienced as a Tech Lead in a
+            full-stack web project for the final program of Kampus Merdeka Batch
+            6 at Binar Academy and as a Backend Developer in Kampus Merdeka
+            Batch 7 at Binar Academy. Additionally, I have experience as a
+            teaching assistant and practicum instructor for programming courses,
+            covering full-stack and back-end development. Several projects have
+            been successfully completed, including a campus library system, a
+            flight ticket booking system, a stock management REST API, and many
+            more. Feel free to check out my project section or visit my GitHub
+            profile for more details. Proficient in web development technologies
+            such as MERN (MongoDB, Express, React, Node) and experienced in
+            Next.js, Nest.js, and Laravel.
           </p>
 
           <p className="text-base text-gray-400">
@@ -61,7 +69,7 @@ const AboutSection = () => {
 
           <p className="text-base text-gray-400">
             Event though the scope of web development is wide, I was very
-            interested and focused on Frontend development.
+            interested and focused on Backend development.
           </p>
 
           <div className="flex flex-col items-start gap-3 mt-3">
@@ -80,24 +88,6 @@ const AboutSection = () => {
         </AnimationContainer>
 
         <ProcessWork />
-
-        {/* <AnimationContainer customClassName='w-full flex flex-col gap-5'>
-
-          <h2 className='mb-2 text-2xl font-bold tracking-tight text-white md:text-2xl text-start'>Interests & Goals</h2>
-
-          <p className='text-base text-gray-400'>
-            I am interested in learning Backend with other language like Java, Go or with Python. I also want to know how to make a video game with Unity or other and I am very interested in being a content creator whether programming or something else.
-          </p>
-
-          <p className='text-base text-gray-400'>
-            For now I'm learning how to make applications with real time communication such as a chat using Socket.IO, I'm also starting to learn the way to be Devops using Docker, Kubernetes, AWS or others.
-          </p>
-
-          <p className='text-base text-gray-400'>
-            I am also interested in learning other things besides programming such as 3D design with Blender and video editing with Davinci Resolve (these last two I would take as a hobby).
-          </p>
-
-        </AnimationContainer> */}
       </div>
     </SectionContainer>
   );

@@ -102,7 +102,7 @@ const CurrentTimeLineExp = () => {
 
       <TimelineEvent>
         <TimelineEvent.Title>
-          Freelance | May. 2023 - September. 2023
+          Web Developer | May. 2023 - September. 2023
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
@@ -120,7 +120,7 @@ const CurrentTimeLineExp = () => {
 
       <TimelineEvent last>
         <TimelineEvent.Title>
-          Lecturer Assistant | March 2023 - September 2023
+          Lecturer Assistant Network Engineering | March 2023 - September 2023
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>

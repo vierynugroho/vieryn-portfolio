@@ -12,7 +12,6 @@ const ContactMe = () => {
 
       <div className="flex flex-col items-center justify-between w-full max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center justify-between w-full gap-6 mb-10 lg:flex-row">
-          {/* <a href='mailto:jeanrdev@gmail.com' target='_blank' rel='noreferrer' className='w-full'> */}
           <div className="w-full rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease">
             <h6 className="font-bold tracking-tight text-white text-1xl text-start">
               Email

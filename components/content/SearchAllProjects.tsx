@@ -7,179 +7,221 @@ import { CardProjectProps } from '@/types';
 
 const allProjectsInfo = [
   {
+    id: '99',
+    title: 'E-Rapor Kurikulum Merdeka',
+    des: "E-Rapor Kurikulum Merdeka is a web-based e-rapor system built with Next.js to support the assessment process of early childhood education (PAUD) students under the Kurikulum Merdeka framework. This application enables teachers to record, manage, and evaluate children's development efficiently.",
+    category: 'typescript - NextJS - backend - api - frontend - postgreSQL',
+    repo: 'https://github.com/vierynugroho/e-Rapor-Kurikulum-Merdeka',
+    link: 'https://e-rapor-kurikulum-merdeka.vercel.app/'
+  },
+  {
     id: '1',
-    title: 'Pokédex Vanilla',
-    des: 'Project using the pokeapi api, you can search the pokemons you want.',
-    category: 'javascript',
-    repo: 'https://jeandv.github.io/pokedex',
-    link: 'https://jeandv.github.io/pokedex'
+    title: 'Backend - Flight Ticketing',
+    des: 'Backend API for flight ticket booking system. Provides flight search, ticket reservation, payment, and passenger and airline data management features.',
+    category:
+      'javascript - expressJS - backend - api - expressJS - payment gateway - postgreSQL',
+    repo: 'https://github.com/vierynugroho/airfly-backend',
+    link: 'https://github.com/vierynugroho/airfly-backend'
   },
   {
     id: '2',
-    title: 'Memory Game',
-    des: 'This is one of the challenges done in CADIF1 Academy. ',
-    category: 'javascript - jquery',
-    repo: 'https://jeandv.github.io/memoria-game',
-    link: 'https://github.com/jeandv/memoria-game'
+    title: 'Backend - Simple Banking System',
+    des: 'Simple API backend for banking systems that supports account management, transactions, and user balance recording with optimal security.',
+    category: 'javascript - expressJS - api - backend',
+    repo: 'https://github.com/vierynugroho/banking-system',
+    link: 'https://github.com/vierynugroho/banking-systeme'
   },
   {
     id: '3',
-    title: 'Github User Finder',
-    des: 'frontendmentor.io challenge where I use the github api to be able to search for github users.',
-    category: 'javascript',
-    repo: 'https://jeandv.github.io/pokedex',
-    link: 'https://jeandv.github.io/pokedex'
+    title: 'Classic Cryptography',
+    des: 'NPM package for encryption and decryption using Caesar Cipher algorithm and exhaustive key search method. Useful for data security education and experimentation.',
+    category:
+      'javascript - npm - package - caesar cipher - exhaustive key search',
+    repo: 'https://github.com/vierynugroho/classic-criptography',
+    link: 'https://www.npmjs.com/package/classic-cryptography'
+  },
+  {
+    id: '4',
+    title: 'Puzzle Games',
+    des: 'A collection of interactive web-based puzzle games. Offering a variety of logic and strategy challenges with engaging gameplay.',
+    category: 'javascript - html - css',
+    repo: 'https://github.com/vierynugroho/multimedia-puzzle-games',
+    link: 'https://sigma-puzzle.vercel.app/'
   },
   {
     id: '5',
-    title: 'MisPelis',
-    des: 'Save your favorite movies with the ability to edit, delete and search for matches.',
-    category: 'javascript - react',
-    repo: 'https://github.com/jeandv/mispelis',
-    link: 'https://mispelis.vercel.app'
+    title: 'Base RESTful API',
+    des: 'Basic RESTful API template with authentication, CRUD, and API documentation features using Swagger. Suitable as a boilerplate for Node.js based backend development.',
+    category: 'typescript - auth - nestJS - backend',
+    repo: 'https://github.com/vierynugroho/nest-rest',
+    link: 'https://github.com/vierynugroho/nest-rest'
   },
   {
     id: '6',
-    title: 'Gixfy',
-    des: 'Gif finder using giphy.com api.',
-    category: 'typescript - react - wouter - jest',
-    repo: 'https://github.com/jeandv/maps-app',
-    link: 'https://gixfy.vercel.app'
+    title: 'Backend PPDB Online',
+    des: 'Backend API for the online New Student Admissions (PPDB) system. Built with ExpressJS and provides registration, selection, and student data verification features.',
+    category: 'javascript - expressJS - google drive api - api - backend',
+    repo: 'https://github.com/vierynugroho/Be-ppdb_online_update',
+    link: 'https://github.com/vierynugroho/Be-ppdb_online_update'
   },
   {
     id: '7',
-    title: 'MapBoxApp',
-    des: 'In this project I learned how to consume the mapbox api and use its different functionalities.',
-    category: 'typescript - react - axios',
-    repo: 'https://github.com/jeandv/maps-app',
-    link: 'https://mapsapp.vercel.app'
+    title: 'GIS - temporary housing location',
+    des: 'Leaflet-based GIS application for mapping temporary housing locations. Allows users to view location information, coordinate points, and details of facilities around the area.',
+    category: 'typescript - react - leaflet',
+    repo: 'https://github.com/vierynugroho/geography-information-system-lanang-6B',
+    link: 'https://geography-information-system-lanang-6-b.vercel.app/'
   },
   {
     id: '8',
-    title: 'Github Issues',
-    des: 'First project using TanStack Query with Github API, I learned what it is for, how to use it and when to use it.',
-    category: 'typescript - react - react query',
-    repo: 'https://github.com/jeandv/react-query/tree/main/02-react-query-issues-main',
-    link: 'https://github.com/jeandv/react-query/tree/main/02-react-query-issues-main'
+    title: 'Backend - internet service provider',
+    des: 'Backend API - Decision Support System using the AHP (analytical hierarchy process) method in a case study of calculating job priorities in internet network services',
+    category: 'decision support system - nodeJS - expressJS - postgreSQL - AHP',
+    repo: 'https://github.com/vierynugroho/SPK-internet-service-provider',
+    link: 'https://team-a-spk-internet-service-provider.vercel.app'
   },
   {
     id: '9',
-    title: 'MERN Events Ecommerce',
-    des: 'Event registration app is a project test to evaluate my skills of the MERN stack using Redux and Stripe.',
-    category: 'react - node - express - mongodb',
-    repo: 'https://github.com/jeandv/events-test-mern',
-    link: 'https://github.com/jeandv/events-test-mern'
+    title: 'Edge Detection',
+    des: 'Image processing project using Python to detect object edges in images. Using algorithms like Canny, Sobel, or Laplacian for more accurate image analysis.',
+    category: 'python - cnn - canny',
+    repo: 'https://github.com/vierynugroho/edge-detection',
+    link: 'https://github.com/vierynugroho/edge-detection'
   },
   {
     id: '10',
-    title: 'Ecommerce Challenge',
-    des: 'I did this challenge with the purpose of learning how to manage a shopping cart and to get to know ChakraUI.',
-    category: 'typescript - next.js - chakraui',
-    repo: 'https://github.com/jeandv/basement-challenge',
-    link: 'https://basement-challenge-jeandv.vercel.app'
+    title: 'Face Recognition',
+    des: 'Python based facial recognition system using OpenCV and machine learning. Can be used for authentication, individual identification, or real-time face detection.',
+    category: 'python',
+    repo: 'https://github.com/vierynugroho/face_recognition',
+    link: 'https://github.com/vierynugroho/face_recognition'
   },
   {
     id: '11',
-    title: 'Pokédex Next.js (ISR)',
-    des: 'Search and save your pokémons favs! I learned the use of GetStaticProps, Paths, the Incremental Static Generation and the Regeneration.',
-    category: 'typescript - next.js - axios',
-    repo: 'https://github.com/jeandv/pokedex-next',
-    link: 'https://pokedex-jeandv.vercel.app'
+    title: 'Backend - Stock Management',
+    des: 'Backend API for inventory management using ExpressJS. Provides product CRUD features, inventory management, and tracking of incoming and outgoing goods.',
+    category: 'javascript - nodeJS - express - postgreSQL - backend - api',
+    repo: 'https://github.com/vierynugroho/restapi-stock-management',
+    link: 'https://github.com/vierynugroho/restapi-stock-management'
   },
   {
     id: '12',
-    title: 'Open Jira',
-    des: 'MERN project using TypeScript to learn how to do the main functionality of Jira.',
-    category: 'next.js - node - express - mongodb',
-    repo: 'https://github.com/jeandv/open-jira',
-    link: 'https://open-jira-jeandv.vercel.app'
+    title: 'Teacher Performance Assessment',
+    des: 'Web Application for Teacher Performance Assessment based on 360 degree analysis assessment at IGRA Blitar City',
+    category: 'php - bootstrap - mySQL',
+    repo: 'https://github.com/vierynugroho/PKG_IGRAKOTABLITAR',
+    link: 'https://github.com/vierynugroho/PKG_IGRAKOTABLITAR'
   },
   {
     id: '13',
-    title: 'Clon Mercado Libre',
-    des: 'This is one of the Angular challenges done in CADIF1 Academy.',
-    category: 'typescript - angular - bootstrap',
-    repo: 'https://github.com/jeandv/mercadolibre-des4',
-    link: 'https://mercadolibre-des4.vercel.app'
+    title: 'Personal Notes App',
+    des: 'Personal notes website based on single page application with reactJS',
+    category: 'javascript - react - SPA',
+    repo: 'https://github.com/vierynugroho/SPA-ReactJS_personal-notes-app',
+    link: 'https://github.com/vierynugroho/SPA-ReactJS_personal-notes-app'
   },
   {
     id: '14',
-    title: 'Cadif1 App',
-    des: 'This is one of the Ionic challenges done in CADIF1 Academy.',
-    category: 'typescript - ionic - angular - scss',
-    repo: 'https://github.com/jeandv/pract-ionic',
-    link: 'https://www.youtube.com/watch?v=ysIM5sAkdAY'
+    title: 'Simple E-Commerce',
+    des: 'Brute Force ALgorithm Implementation',
+    category: 'javascript - html - css',
+    repo: 'https://github.com/vierynugroho/E-Commerce-Brute-Force',
+    link: 'https://github.com/vierynugroho/E-Commerce-Brute-Force'
   },
   {
     id: '15',
-    title: 'Electron.js Projects',
-    des: 'All my projects using Electron.',
-    category: 'electron.js',
-    repo: 'https://github.com/jeandv/pract-electronjs',
-    link: 'https://github.com/jeandv/pract-electronjs'
+    title: 'e-perpus - Online Library',
+    des: 'E - Perpus is a website built with the aim of facilitating library administration in managing book borrower data, preventing race conditions, etc.',
+    category: 'Laravel - PHP - mySQL - bootstrap',
+    repo: 'https://github.com/vierynugroho/E-Perpus-UAS-Project',
+    link: 'https://github.com/vierynugroho/E-Perpus-UAS-Project'
   },
   {
     id: '16',
-    title: 'Node Backend Projects',
-    des: 'Terminal projects (console), rest servers, api rests, etc.',
-    category: 'node - express - mongodb',
-    repo: 'https://github.com/jeandv/pract-nodejs',
-    link: 'https://github.com/jeandv/pract-nodejs'
+    title: 'Certainty Factor for Data Validation',
+    des: 'Validation of marriage data using the concept of certainty factor based on the website',
+    category: 'PHP - Certainty Factor - AI',
+    repo: 'https://github.com/vierynugroho/Validasi-Data-KUA_Certainty-Factor',
+    link: 'https://github.com/vierynugroho/Validasi-Data-KUA_Certainty-Factor'
   },
   {
     id: '17',
-    title: 'JavaScript Algorithms',
-    des: 'Practice, exercises and algorithmic challenges using JavaScript and TypeScript.',
-    category: 'javascript - typescript',
-    repo: 'https://github.com/jeandv/algorithms-js',
-    link: 'https://github.com/jeandv/algorithms-js'
+    title: 'Laravel Ecommerce',
+    des: 'An e-commerce website that provides complete features such as product catalogs, shopping carts, order management, and user authentication.',
+    category: 'laravel - php - vue - mysql - bootstrap - payment gateway',
+    repo: 'https://github.com/vierynugroho/vstore-laravel',
+    link: 'https://github.com/vierynugroho/vstore-laravel'
   },
   {
     id: '18',
-    title: 'PHP Ecommerce',
-    des: 'Freelancer Ecommerce Project using PHP and MySQL database.',
-    category: 'php - mysql - bootstrap',
-    repo: 'https://github.com/jeandv/shopphp-paypal',
-    link: 'https://github.com/jeandv/shopphp-paypal'
+    title: 'VArchiver - Simple File Manager',
+    des: 'simple shell based file manager',
+    category: 'shell',
+    repo: 'https://github.com/vierynugroho/UAS-praktikum_SistemOperasi',
+    link: 'https://github.com/vierynugroho/UAS-praktikum_SistemOperasi'
   },
+  {
+    id: '19',
+    title: 'Office Tutorial',
+    des: 'office tutorials: microsoft office training and tutorial website',
+    category: 'php - mySQL - bootstrap - css',
+    repo: 'https://github.com/vierynugroho/officetutorials/tree/main/officetutorial',
+    link: 'https://github.com/vierynugroho/officetutorials/tree/main/officetutorial'
+  }
 ];
 
 const SearchAllProjects = () => {
-
   const [projectSearch, setProjectSearch] = useState<string>('');
 
-  const resultSearch: CardProjectProps[] = allProjectsInfo.filter(project => project.category.includes(projectSearch.toLowerCase()))
+  const resultSearch: CardProjectProps[] = allProjectsInfo.filter((project) =>
+    project.category.includes(projectSearch.toLowerCase())
+  );
 
   return (
     <>
-      <AnimationContainer customClassName='w-full group flex flex-col justify-center items-center mb-8'>
-
-        <div className='w-full flex items-center lg:w-3/6 h-12 rounded shadow-lg bg-black border border-gray-800 group-hover:border-gray-500 transition-all ease'>
-
-          <div className='grid place-items-center h-full w-12 text-gray-500'>
-            <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='1' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
+      <AnimationContainer customClassName="w-full group flex flex-col justify-center items-center mb-8">
+        <div className="w-full flex items-center lg:w-3/6 h-12 rounded shadow-lg bg-black border border-gray-800 group-hover:border-gray-500 transition-all ease">
+          <div className="grid place-items-center h-full w-12 text-gray-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
             </svg>
           </div>
 
           <input
-            className='peer h-full w-full outline-none rounded text-sm text-white bg-black px-2 group-hover:border-gray-500 transition-all ease'
-            type='text'
-            id='search'
-            placeholder='Languages, frameworks, libraries, etc...'
-            onChange={e => setProjectSearch(e.target.value)} />
+            className="peer h-full w-full outline-none rounded text-sm text-white bg-black px-2 group-hover:border-gray-500 transition-all ease"
+            type="text"
+            id="search"
+            placeholder="Languages, frameworks, libraries, etc..."
+            onChange={(e) => setProjectSearch(e.target.value)}
+          />
         </div>
-
       </AnimationContainer>
 
-      <article className='w-full flex justify-center items-center content-center flex-wrap gap-6 mx-auto'>
-        {
-          resultSearch.map(({ id, title, des, category, repo, link }) => <CardProject key={id} title={title} des={des} category={category} repo={repo} link={link} />)
-        }
+      <article className="w-full flex justify-center items-center content-center flex-wrap gap-6 mx-auto">
+        {resultSearch.map(({ id, title, des, category, repo, link }) => (
+          <CardProject
+            key={id}
+            title={title}
+            des={des}
+            category={category}
+            repo={repo}
+            link={link}
+          />
+        ))}
       </article>
     </>
-  )
-
-}
+  );
+};
 
 export default SearchAllProjects;

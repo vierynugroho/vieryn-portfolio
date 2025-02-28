@@ -35,8 +35,14 @@ export const skills = [
       'Firebase',
       'Supabase',
       'Payment Gateway',
-      'PostgreSQL'
+      'PostgreSQL',
+      'Firebase',
+      'Supabase'
     ]
+  },
+  {
+    title: 'Frontend stack',
+    techs: ['ReactJS', 'NextJS']
   },
   {
     title: 'Softwares and tools',

@@ -24,12 +24,7 @@ const Head = () => {
       <meta name="robots" content="follow, index" />
       <meta content={meta.description} name="description" />
       <meta name="keywords" content={meta.keywords} />
-      <meta
-        property="og:url"
-        content={`https://jeandv.vercel.app${pathname}`}
-      />
-      <link rel="canonical" href={`https://jeandv.vercel.app${pathname}`} />
-      <link rel="me" href="mailto:jeanrdev@gmail.com" />
+      <link rel="me" href="mailto:viery15102002@gmail.com" />
       <meta property="og:type" content={meta.type} />
       <meta property="og:site_name" content="Viery Nugroho" />
       <meta property="og:description" content={meta.description} />

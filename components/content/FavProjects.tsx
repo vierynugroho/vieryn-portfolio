@@ -113,55 +113,49 @@ Error();
 const favProjects = [
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/587bf66c35c35c26dc6c20d85e9166d236227e29-1440x806.png',
-    title: 'MapsApp',
-    category: 'React - Context - TypeScript - CSS - Mapbox',
-    repo: 'https://github.com/jeandv/maps-app',
-    link: 'https://mapsapp.vercel.app'
+      'https://media-hosting.imagekit.io//665be90467bf4330/Viery%20NUGROHO.png?Expires=1835392936&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=e4K1mPz1oSg6pyoRgtboOGG4RV0hC0~appatDy7GiaODSSO0g1Wob1e~qyKOvagBPL~NRdDvkKIDPpauAIKeNWmEyVDhxlVUB0iX5rz8Ukm7Gjo02d6KOJx1esH32BsVAq3-sSkKNoRHe6ZsDdqGOU6WFxA4GS1je90vsVUnAZOqqQoKFjnGxqagn5itotuVgPQ5DzZOsFrxw21SMcdnC2rtOSQofficq9LB6p6fvG~zr9tZPy2C7yVYpGRpC3RCCWZ47W8OaEceP1vRWMIn3Udioco-8oyepCVr3bXLyAfjPvFa1-qrRqXgtOWJoTgNSnHZr2ExjikIfnas2eIz1w__',
+    title: 'E-Rapor Kurikulum Merdeka',
+    category: 'typescript - NextJS - backend - api - frontend - postgreSQL',
+    repo: 'https://github.com/vierynugroho/e-Rapor-Kurikulum-Merdeka',
+    link: 'https://e-rapor-kurikulum-merdeka.vercel.app/'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/9d452c28dc252302b90e6e2408b81ce3ed111957-1440x803.png',
-    title: 'OpenJira',
-    category: 'Next.js - Context - TypeScript - Node - MongoDB - MaterialUI',
-    repo: 'https://github.com/jeandv/open-jira',
-    link: 'https://open-jira-jeandv.vercel.app'
+      'https://media-hosting.imagekit.io//665be90467bf4330/Viery%20NUGROHO.png?Expires=1835392936&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=e4K1mPz1oSg6pyoRgtboOGG4RV0hC0~appatDy7GiaODSSO0g1Wob1e~qyKOvagBPL~NRdDvkKIDPpauAIKeNWmEyVDhxlVUB0iX5rz8Ukm7Gjo02d6KOJx1esH32BsVAq3-sSkKNoRHe6ZsDdqGOU6WFxA4GS1je90vsVUnAZOqqQoKFjnGxqagn5itotuVgPQ5DzZOsFrxw21SMcdnC2rtOSQofficq9LB6p6fvG~zr9tZPy2C7yVYpGRpC3RCCWZ47W8OaEceP1vRWMIn3Udioco-8oyepCVr3bXLyAfjPvFa1-qrRqXgtOWJoTgNSnHZr2ExjikIfnas2eIz1w__',
+    title: 'Backend - Flight Ticketing',
+    category:
+      'javascript - expressJS - backend - api - expressJS - payment gateway - postgreSQL',
+    repo: 'https://github.com/vierynugroho/airfly-backend',
+    link: 'https://github.com/vierynugroho/airfly-backend'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/bb12572785fdc98c304ff9823cab3f60bc16f8b7-1422x809.png',
-    title: 'Github Issues',
-    category: 'React - React Query - TypeScript - Bootstrap',
-    repo: 'https://github.com/jeandv/react-query',
-    link: 'https://github.com/jeandv/react-query'
+      'https://media-hosting.imagekit.io//665be90467bf4330/Viery%20NUGROHO.png?Expires=1835392936&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=e4K1mPz1oSg6pyoRgtboOGG4RV0hC0~appatDy7GiaODSSO0g1Wob1e~qyKOvagBPL~NRdDvkKIDPpauAIKeNWmEyVDhxlVUB0iX5rz8Ukm7Gjo02d6KOJx1esH32BsVAq3-sSkKNoRHe6ZsDdqGOU6WFxA4GS1je90vsVUnAZOqqQoKFjnGxqagn5itotuVgPQ5DzZOsFrxw21SMcdnC2rtOSQofficq9LB6p6fvG~zr9tZPy2C7yVYpGRpC3RCCWZ47W8OaEceP1vRWMIn3Udioco-8oyepCVr3bXLyAfjPvFa1-qrRqXgtOWJoTgNSnHZr2ExjikIfnas2eIz1w__',
+    title: 'Classic Cryptography',
+    category:
+      'javascript - npm - package - caesar cipher - exhaustive key search',
+    repo: 'https://github.com/vierynugroho/classic-criptography',
+    link: 'https://www.npmjs.com/package/classic-cryptography'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/0844f66435c099fb020b8235657491a3166bd713-1280x800.png',
+      'https://media-hosting.imagekit.io//665be90467bf4330/Viery%20NUGROHO.png?Expires=1835392936&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=e4K1mPz1oSg6pyoRgtboOGG4RV0hC0~appatDy7GiaODSSO0g1Wob1e~qyKOvagBPL~NRdDvkKIDPpauAIKeNWmEyVDhxlVUB0iX5rz8Ukm7Gjo02d6KOJx1esH32BsVAq3-sSkKNoRHe6ZsDdqGOU6WFxA4GS1je90vsVUnAZOqqQoKFjnGxqagn5itotuVgPQ5DzZOsFrxw21SMcdnC2rtOSQofficq9LB6p6fvG~zr9tZPy2C7yVYpGRpC3RCCWZ47W8OaEceP1vRWMIn3Udioco-8oyepCVr3bXLyAfjPvFa1-qrRqXgtOWJoTgNSnHZr2ExjikIfnas2eIz1w__',
+    title: 'Backend - internet service provider',
+    category: 'decision support system - nodeJS - expressJS - postgreSQL - AHP',
+    repo: 'https://github.com/vierynugroho/SPK-internet-service-provider',
+    link: 'https://team-a-spk-internet-service-provider.vercel.app'
+  },
+  {
+    image:
+      'https://media-hosting.imagekit.io//665be90467bf4330/Viery%20NUGROHO.png?Expires=1835392936&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=e4K1mPz1oSg6pyoRgtboOGG4RV0hC0~appatDy7GiaODSSO0g1Wob1e~qyKOvagBPL~NRdDvkKIDPpauAIKeNWmEyVDhxlVUB0iX5rz8Ukm7Gjo02d6KOJx1esH32BsVAq3-sSkKNoRHe6ZsDdqGOU6WFxA4GS1je90vsVUnAZOqqQoKFjnGxqagn5itotuVgPQ5DzZOsFrxw21SMcdnC2rtOSQofficq9LB6p6fvG~zr9tZPy2C7yVYpGRpC3RCCWZ47W8OaEceP1vRWMIn3Udioco-8oyepCVr3bXLyAfjPvFa1-qrRqXgtOWJoTgNSnHZr2ExjikIfnas2eIz1w__',
     title: 'ISR Pokedex',
-    category: 'Next.js - TypeScript - NextUI - Pokeapi',
-    repo: 'https://github.com/jeandv/pokedex-next',
-    link: 'https://pokedex-jeandv.vercel.app'
-  },
-  {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/5d3fb4c2893e2ab9a3667431696b0789f004177f-1428x807.png',
-    title: 'MisPelis',
-    category: 'React - JavaScript - CSS',
-    repo: 'https://mispelis.vercel.app',
-    link: 'https://github.com/jeandv/mispelis'
-  },
-  {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/32f71c8c2225276c64e64ce86777c3df09a878e6-1426x807.png',
-    title: 'Gixfy',
-    category: 'React - JavaScript - Jest - Wouter',
-    repo: 'https://gixfy.vercel.app',
-    link: 'https://github.com/jeandv/gixfy'
+    category: 'typescript - auth - nestJS - backend',
+    repo: 'https://github.com/vierynugroho/nest-rest',
+    link: 'https://github.com/vierynugroho/nest-rest'
   }
 ];
 
-const myGithub = 'https://github.com/jeandv';
+const myGithub = 'https://github.com/vierynugroho';
 
 const FavProjects = () => {
   const theme = useMantineTheme();
