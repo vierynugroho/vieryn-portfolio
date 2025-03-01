@@ -35,9 +35,9 @@ const HomeSection = () => {
           <p className="text-base text-gray-400">
             A look at all the programming languages, libraries, and tools I've
             worked with, I started programming about +{' '}
-            {calculateDuration('2021-10-20', false)} ago. I have tried a few
-            programming languages and technology stack, both Backend and
-            Frontend.
+            {calculateDuration('2021-10-20', undefined, false)} ago. I have
+            tried a few programming languages and technology stack, both Backend
+            and Frontend.
           </p>
 
           <p className="text-base text-gray-400">

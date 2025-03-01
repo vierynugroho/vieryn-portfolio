@@ -17,20 +17,21 @@ const AboutSection = () => {
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-400">
             A web developer and IT enthusiast with over +
-            {calculateDuration('2022-01-01', false)} years of experience as a
-            Web Developer (PHP Developer, Laravel, and MERN Stack Developer)
-            with satisfying results. Also experienced as a Tech Lead in a
-            full-stack web project for the final program of Kampus Merdeka Batch
-            6 at Binar Academy and as a Backend Developer in Kampus Merdeka
-            Batch 7 at Binar Academy. Additionally, I have experience as a
-            teaching assistant and practicum instructor for programming courses,
-            covering full-stack and back-end development. Several projects have
-            been successfully completed, including a campus library system, a
-            flight ticket booking system, a stock management REST API, and many
-            more. Feel free to check out my project section or visit my GitHub
-            profile for more details. Proficient in web development technologies
-            such as MERN (MongoDB, Express, React, Node) and experienced in
-            Next.js, Nest.js, and Laravel.
+            {calculateDuration('2022-01-01', undefined, false)} years of
+            experience as a Web Developer (PHP Developer, Laravel, and MERN
+            Stack Developer) with satisfying results. Also experienced as a Tech
+            Lead in a full-stack web project for the final program of Kampus
+            Merdeka Batch 6 at Binar Academy and as a Backend Developer in
+            Kampus Merdeka Batch 7 at Binar Academy. Additionally, I have
+            experience as a teaching assistant and practicum instructor for
+            programming courses, covering full-stack and back-end development.
+            Several projects have been successfully completed, including a
+            campus library system, a flight ticket booking system, a stock
+            management REST API, and many more. Feel free to check out my
+            project section or visit my GitHub profile for more details.
+            Proficient in web development technologies such as MERN (MongoDB,
+            Express, React, Node) and experienced in Next.js, Nest.js, and
+            Laravel.
           </p>
 
           <p className="text-base text-gray-400">
@@ -62,9 +63,9 @@ const AboutSection = () => {
 
           <p className="text-base text-gray-400">
             A look at all the programming languages, libraries, and tools I've
-            {calculateDuration('2021-10-20', false)} ago. I have tried a few
-            programming languages and technology stack, both Backend and
-            Frontend.
+            {calculateDuration('2021-10-20', undefined, false)} ago. I have
+            tried a few programming languages and technology stack, both Backend
+            and Frontend.
           </p>
 
           <p className="text-base text-gray-400">
