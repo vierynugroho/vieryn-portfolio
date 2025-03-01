@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import ExternalLink from '../ui/ExternalLink';
+import { motion, AnimatePresence } from 'framer-motion';
 import AnimationContainer from '../utils/AnimationContainer';
 
 const Hero = () => {
@@ -23,8 +23,22 @@ const Hero = () => {
           Viery Nugroho
         </h1>
 
-        <h2 className="flex items-center gap-2 mx-auto mb-8 text-gray-200 text-1xl lg:text-1xl lg:mx-0">
-          <span className="font-semibold">{roles[index]}</span>Developer
+        <h2 className="flex items-center gap-2 mx-auto mb-8 text-gray-200 text-1xl lg:text-1xl lg:mx-0 lg:justify-start">
+          <span className="relative min-w-[80px] h-[24px] inline-block text-left">
+            <AnimatePresence mode="wait">
+              <motion.span
+                key={roles[index]}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.5 }}
+                className="font-semibold absolute left-0 w-full"
+              >
+                {roles[index]}
+              </motion.span>
+            </AnimatePresence>
+          </span>
+          Developer
         </h2>
         <a
           href="https://drive.google.com/uc?export=download&id=13WwHm_Sg2pqFiY-zkYAJVxHPvTzJ2iMA"
