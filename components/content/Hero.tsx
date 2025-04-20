@@ -32,7 +32,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5 }}
-                className="font-semibold absolute left-0 w-full"
+                className="absolute left-0 w-full font-semibold"
               >
                 {roles[index]}
               </motion.span>
@@ -41,9 +41,10 @@ const Hero = () => {
           Developer
         </h2>
         <a
-          href="https://drive.google.com/uc?export=download&id=13WwHm_Sg2pqFiY-zkYAJVxHPvTzJ2iMA"
+          href="https://drive.google.com/drive/folders/1f1TBrdYjTWhYcreHDA0HHVst0QS3urY9?usp=sharing"
+          target={'_blank'}
           download="Viery_Nugroho_CV.pdf"
-          className="flex items-center gap-2 px-4 py-2 my-2 text-dark bg-white rounded-lg hover:bg-slate-200 transition font-bold"
+          className="flex items-center gap-2 px-4 py-2 my-2 font-bold transition bg-white rounded-lg text-dark hover:bg-slate-200"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
