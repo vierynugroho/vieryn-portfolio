@@ -30,6 +30,54 @@ export function calculateDuration(
 const CurrentTimeLineExp = () => {
   return (
     <Timeline>
+      {/* Intechgrasi.id */}
+      <TimelineEvent active>
+        <TimelineEvent.Header
+          title={'Backend Developer'}
+          date={'March 2025 - now'}
+        ></TimelineEvent.Header>
+
+        <TimelineEvent.SubTitle>
+          Intechgrasi.id - {calculateDuration('2025-03-01', undefined, true)}
+        </TimelineEvent.SubTitle>
+
+        <TimelineEvent.Description>
+          Designing and developing RESTful APIs using Node.js (Express.js,
+          NestJS, or other frameworks). Integrating third-party services such as
+          payment systems, authentication, and cloud storage. Managing SQL
+          databases (PostgreSQL, MySQL) or NoSQL databases (MongoDB, Firebase).
+          Implementing microservices architecture and event-driven systems for
+          scalability. Utilizing containerization with Docker and deploying
+          applications on AWS, GCP, or other cloud servers. Enhancing API
+          security using authentication methods such as JWT, OAuth, or other
+          techniques. Optimizing backend performance and managing caching using
+          Redis or similar technologies. Performing debugging, logging, and
+          system monitoring to ensure application stability.
+        </TimelineEvent.Description>
+      </TimelineEvent>
+
+      {/* Dafi Catering */}
+      <TimelineEvent active>
+        <TimelineEvent.Header
+          title={'Web Developer'}
+          date={'October 2024 - now'}
+        ></TimelineEvent.Header>
+
+        <TimelineEvent.SubTitle>
+          Dafi Catering - {calculateDuration('2024-10-10', undefined, true)}
+        </TimelineEvent.SubTitle>
+
+        <TimelineEvent.Description>
+          I have experience in developing websites to showcase catering
+          services, manage orders, and publish blog content. I regularly perform
+          website backups, handle deployment, and optimize SEO to improve
+          visibility. Additionally, I analyze website performance using Google
+          Analytics to track user engagement and make data-driven improvements.
+          I also ensure that website content stays fresh and relevant by
+          updating posts regularly.
+        </TimelineEvent.Description>
+      </TimelineEvent>
+
       {/* Mahasiswa */}
       <TimelineEvent active>
         <TimelineEvent.Header
@@ -53,25 +101,26 @@ const CurrentTimeLineExp = () => {
         </TimelineEvent.Description>
       </TimelineEvent>
 
-      {/* Dafi Catering */}
+      {/* 80&Company */}
       <TimelineEvent>
         <TimelineEvent.Header
-          title={'Web Developer'}
-          date={'October 2024 - March 2025'}
+          title={'Fullstack Web Developer'}
+          date={'March 2024 - May 2025'}
         ></TimelineEvent.Header>
 
         <TimelineEvent.SubTitle>
-          Dafi Catering - {calculateDuration('2024-10-10', '2025-03-10', true)}
+          80&Company - {calculateDuration('2025-03-01', '2025-05-01', true)}
         </TimelineEvent.SubTitle>
 
         <TimelineEvent.Description>
-          I have experience in developing websites to showcase catering
-          services, manage orders, and publish blog content. I regularly perform
-          website backups, handle deployment, and optimize SEO to improve
-          visibility. Additionally, I analyze website performance using Google
-          Analytics to track user engagement and make data-driven improvements.
-          I also ensure that website content stays fresh and relevant by
-          updating posts regularly.
+          Developed a full-stack website using Next.js with integration of
+          various AWS services, Dify API, and a database to support application
+          performance and scalability. The project also involved implementing
+          Docker for efficient and standardized deployment processes. The main
+          focus of development was on creating an intuitive and user-friendly
+          UI/UX. In addition to technical aspects, the project emphasized
+          effective time management to ensure each development phase proceeded
+          according to schedule.
         </TimelineEvent.Description>
       </TimelineEvent>
 
