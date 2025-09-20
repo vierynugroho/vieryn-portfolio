@@ -20,16 +20,6 @@ const ContactMe = () => {
               viery15102002@gmail.com
             </p>
           </div>
-          {/* </a> */}
-
-          {/* <a href='https://walink.co/2369d5' target='_blank' rel='noreferrer' className='w-full'> */}
-          <div className="w-full rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease">
-            <h6 className="font-bold tracking-tight text-white text-1xl text-start">
-              Phone
-            </h6>
-            <p className="mt-2 text-base text-gray-400">+62 895638069206</p>
-          </div>
-          {/* </a> */}
         </div>
 
         <div className="flex flex-col items-center justify-center w-full">

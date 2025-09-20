@@ -37,7 +37,13 @@ export const skills = [
       'Payment Gateway',
       'PostgreSQL',
       'Firebase',
-      'Supabase'
+      'Supabase',
+      'Message Broker (BullMQ, Redis)',
+      'Prisma',
+      'TypeORM',
+      'Sequelize',
+      'Docker',
+      'RESTful API'
     ]
   },
   {

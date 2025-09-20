@@ -30,6 +30,34 @@ export function calculateDuration(
 const CurrentTimeLineExp = () => {
   return (
     <Timeline>
+      {/* Shieldtag.co */}
+      <TimelineEvent active>
+        <TimelineEvent.Header
+          title={'Fullstack Developer'}
+          date={'August 2025 - now'}
+        ></TimelineEvent.Header>
+
+        <TimelineEvent.SubTitle>
+          Shieldtag.co - {calculateDuration('2025-08-15', undefined, true)}
+        </TimelineEvent.SubTitle>
+
+        <TimelineEvent.Description>
+          Responsible for fixing bugs and implementing trunk-based development
+          to ensure stable releases. Focused on data security with strict
+          encryption practices and robust MySQL database management. Developed
+          and maintained RESTful APIs using Express.js, integrating third-party
+          services such as payment systems, authentication, and cloud storage.
+          Enhanced backend performance with Redis caching and message broker
+          integration for scalable event-driven systems. Managed deployments
+          using Docker and cloud platforms (AWS, GCP), and utilized SSH and Git
+          for secure server access and version control. On the frontend,
+          implemented APIs into Next.js and TypeScript-based designs, ensuring
+          seamless integration and responsive user experiences. Continuously
+          improved problem-solving and debugging skills across both backend and
+          frontend stacks.
+        </TimelineEvent.Description>
+      </TimelineEvent>
+
       {/* Intechgrasi.id */}
       <TimelineEvent active>
         <TimelineEvent.Header
