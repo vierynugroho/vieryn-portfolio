@@ -31,13 +31,10 @@ export const skills = [
       'Express',
       'NestJS',
       'MongoDB',
-      'Postman',
       'Firebase',
       'Supabase',
       'Payment Gateway',
       'PostgreSQL',
-      'Firebase',
-      'Supabase',
       'Message Broker (BullMQ, Redis)',
       'Prisma',
       'TypeORM',
@@ -63,7 +60,8 @@ export const skills = [
       'WordPress',
       'Elementor',
       'Docker',
-      'Canva'
+      'Canva',
+      'Postman'
     ]
   },
   {

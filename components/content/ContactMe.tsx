@@ -62,12 +62,15 @@ const ContactMe = () => {
                   Phone
                 </label>
                 <input
-                  className="w-full p-3 text-base text-white transition bg-black border border-gray-900 rounded outline-none focus:border-gray-800 ease"
+                  className="w-full p-3 text-base text-white transition bg-black border border-gray-900 rounded outline-none focus:border-gray-800 ease no-spinner"
                   placeholder="Phone"
-                  type="tel"
+                  type="number"
                   id="phone"
                   name="phone"
                   required
+                  style={{
+                    MozAppearance: 'textfield'
+                  }}
                 />
               </div>
             </div>
