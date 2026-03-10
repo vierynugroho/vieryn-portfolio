@@ -33,7 +33,7 @@ const CurrentTimeLineExp = () => {
       {/* Shieldtag.co */}
       <TimelineEvent active>
         <TimelineEvent.Header
-          title={'Fullstack Developer'}
+          title={'Fullstack Developer (especially backend developer)'}
           date={'August 2025 - now'}
         ></TimelineEvent.Header>
 
@@ -107,14 +107,14 @@ const CurrentTimeLineExp = () => {
       </TimelineEvent>
 
       {/* Mahasiswa */}
-      <TimelineEvent active>
+      <TimelineEvent>
         <TimelineEvent.Header
           title={'Informatic Engineering Student'}
-          date={'October 2021 - now'}
+          date={'October 2021 - November 2025'}
         ></TimelineEvent.Header>
         <TimelineEvent.SubTitle>
           Islamic University of Balitar -{' '}
-          {calculateDuration('2021-10-20', undefined, true)}
+          {calculateDuration('2021-10-20', '2025-11-25', true)}
         </TimelineEvent.SubTitle>
 
         <TimelineEvent.Description>
