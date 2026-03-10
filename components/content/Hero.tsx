@@ -96,7 +96,7 @@ const Hero = () => {
           alt="Viery Nugroho"
           height={176}
           width={176}
-          src="/vieryn.png"
+          src="/viery.jpg"
           sizes="30vw"
           priority
           className="rounded-[8px] filter grayscale hover:grayscale-0 transition ease"
