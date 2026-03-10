@@ -85,14 +85,14 @@ const CurrentTimeLineExp = () => {
       </TimelineEvent>
 
       {/* Dafi Catering */}
-      <TimelineEvent active>
+      <TimelineEvent>
         <TimelineEvent.Header
           title={'Web Developer'}
-          date={'October 2024 - now'}
+          date={'October 2024 - October 2025'}
         ></TimelineEvent.Header>
 
         <TimelineEvent.SubTitle>
-          Dafi Catering - {calculateDuration('2024-10-10', undefined, true)}
+          Dafi Catering - {calculateDuration('2024-10-10', '2025-10-10', true)}
         </TimelineEvent.SubTitle>
 
         <TimelineEvent.Description>
