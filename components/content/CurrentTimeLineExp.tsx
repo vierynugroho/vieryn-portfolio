@@ -84,6 +84,36 @@ const CurrentTimeLineExp = () => {
         </TimelineEvent.Description>
       </TimelineEvent>
 
+      {/* Janji Ngoding */}
+      <TimelineEvent active>
+        <TimelineEvent.Header
+          title={'Fullstack Developer (CEO)'}
+          date={'April 2025 - now'}
+        ></TimelineEvent.Header>
+
+        <TimelineEvent.SubTitle>
+          Janji Ngoding - {calculateDuration('2025-04-01', undefined, true)}
+        </TimelineEvent.SubTitle>
+
+        <TimelineEvent.Description>
+          As the CEO and a full-stack developer at Janji Ngoding, I am
+          responsible for overseeing the development and strategic direction of
+          the company. I lead a team of developers in creating innovative web
+          applications, ensuring that our products meet high standards of
+          quality and performance. My role involves not only coding and
+          technical leadership but also business development, client relations,
+          and overall company management. I am committed to fostering a
+          collaborative and productive work environment while driving the
+          company's growth and success in the competitive tech industry.
+          {/* tech stack MERN/Next */}
+          And as a full-stack developer, I am proficient in both frontend and
+          backend technologies, including the MERN stack (MongoDB, Express.js,
+          React, Node.js), Next.js and other frameworks and databases. I am
+          dedicated to delivering high-quality software solutions that meet the
+          needs of our clients and users.
+        </TimelineEvent.Description>
+      </TimelineEvent>
+
       {/* Dafi Catering */}
       <TimelineEvent>
         <TimelineEvent.Header
